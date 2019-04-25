@@ -7,11 +7,6 @@ import (
 )
 
 var (
-	ConfigFlag = cli.StringFlag{
-		Name:  "config",
-		Usage: "Genesis block config `<file>`. If doesn't specifies, use config.json as default.",
-		Value: config.DEFAULT_CONFIG_FILE_NAME,
-	}
 	FeeFlag = cli.Uint64Flag{
 		Name:  "fee",
 		Usage: "relayer fee",

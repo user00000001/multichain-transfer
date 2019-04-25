@@ -18,11 +18,6 @@ type Client struct {
 }
 
 func (client *Client) Lock(c *cli.Context) {
-	err := config.DefConfig.Init(c.String(utils.GetFlagName(utils.ConfigFlag)))
-	if err != nil {
-		fmt.Println("DefConfig.Init error: ", err)
-		return
-	}
 	wallet, err := client.OntSdk.OpenWallet(c.String(utils.GetFlagName(utils.WalletFileFlag)))
 	if err != nil {
 		fmt.Println("client.OntSdk.OpenWallet error: ", err)
@@ -52,5 +47,5 @@ func (client *Client) Lock(c *cli.Context) {
 		fmt.Println("invokeNativeContract error :", err)
 		return
 	}
-	fmt.Println("txhash is: ", txHash)
+	fmt.Println("txhash is: ", txHash.ToHexString())
 }

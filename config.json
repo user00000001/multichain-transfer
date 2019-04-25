@@ -1,6 +1,6 @@
 {
   "ChainID": 0,
-  "JsonRpcAddress":"http://localhost:20336",
+  "JsonRpcAddress":"http://138.91.6.125:20336",
   "GasPrice":0,
   "GasLimit":20000
 }

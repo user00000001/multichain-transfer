@@ -2,6 +2,7 @@ package core
 
 import (
 	"fmt"
+
 	"github.com/ontio/multichain-transfer/config"
 	"github.com/ontio/multichain-transfer/utils"
 	sdk "github.com/ontio/ontology-go-sdk"
@@ -34,10 +35,10 @@ func (client *Client) Lock(c *cli.Context) {
 		return
 	}
 	params := &ong.OngLockParam{
-		OngxFee:    c.Uint64(utils.GetFlagName(utils.FeeFlag)),
-		ToChainID:  c.Uint64(utils.GetFlagName(utils.ChainIDFlag)),
-		Address:    user.Address,
-		OngxAmount: c.Uint64(utils.GetFlagName(utils.AmountFlag)),
+		Fee:       c.Uint64(utils.GetFlagName(utils.FeeFlag)),
+		ToChainID: c.Uint64(utils.GetFlagName(utils.ChainIDFlag)),
+		Address:   user.Address,
+		Amount:    c.Uint64(utils.GetFlagName(utils.AmountFlag)),
 	}
 	method := "ongLock"
 	contractAddress := outils.OngContractAddress

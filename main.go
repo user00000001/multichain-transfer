@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"fmt"
-	"github.com/ontio/multichain-transfer/config"
-	"github.com/ontio/multichain-transfer/core"
-	"github.com/ontio/multichain-transfer/utils"
+	"github.com/siovanus/multichain-transfer/config"
+	"github.com/siovanus/multichain-transfer/core"
+	"github.com/siovanus/multichain-transfer/utils"
 	sdk "github.com/ontio/ontology-go-sdk"
 	"github.com/urfave/cli"
 )

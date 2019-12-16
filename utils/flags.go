@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/ontio/multichain-transfer/config"
+	"github.com/siovanus/multichain-transfer/config"
 	"github.com/urfave/cli"
 	"strings"
 )

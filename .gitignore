@@ -1,3 +1,10 @@
+# ide configure
+.vscode
+.idea
+
+# built binary file
 main
 multichain-transfer
 
+# vendor
+vendor

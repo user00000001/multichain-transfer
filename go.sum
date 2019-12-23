@@ -80,6 +80,7 @@ github.com/russross/blackfriday/v2 v2.0.1 h1:lPqVAte+HuHNfhJ/0LC98ESWRz8afy9tM/0
 github.com/russross/blackfriday/v2 v2.0.1/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/shurcooL/sanitized_anchor_name v1.0.0 h1:PdmoCO6wvbs+7yrJyMORt4/BmY5IYyJwS/kOiWx8mHo=
 github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeVRXNmyL/1OwPU0+IJeTBvfc=
+github.com/siovanus/multichain-transfer v0.0.0-20190516065132-e0d83e9c1740 h1:n/qvQkJx/LdNW5Z45WyFJAVqP6MTV9HyVu05bFjoeq4=
 github.com/siovanus/multichain-transfer v0.0.0-20190516065132-e0d83e9c1740/go.mod h1:VT1+TFRJFETH1kb+liSVYn/c2H97AG6a1/yMAyFH5sQ=
 github.com/siovanus/ontology v1.6.1-0.20190327073416-3e10efc70eda h1:kkaHL6VOxTkahQkh0XLTZitG3iZowFivRoET7Wv+O+k=
 github.com/siovanus/ontology v1.6.1-0.20190327073416-3e10efc70eda/go.mod h1:ycbu2he4b3iuD3ViiMnv7jPa7AjN7WhPckc4qfi4UDg=

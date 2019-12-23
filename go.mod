@@ -1,4 +1,4 @@
-module github.com/ontio/multichain-transfer
+module multichain-transfer
 
 go 1.13
 
